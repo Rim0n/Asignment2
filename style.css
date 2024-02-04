@@ -304,6 +304,38 @@
 
 /* Main Style Ends */
 
+/* Footer Style Starts */
+.footer{
+    margin: 0px;
+    padding: 3.25rem 8.437rem;
+    background-color: #e2e1e0;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.footer-travel-agency-title{
+    display: flex;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+.icon img{
+    width: 40px ;
+}
+.hr {
+    width: 100%;
+    border: 1px solid  rgba(19, 19, 24, 0.70);;
+    margin: 20px 0;
+}
+/* Footer Style Ends */
+
 
 
 
@@ -375,13 +407,6 @@
     .find-subscribe-button{
         width: 90%;
     }
-
-
-
-
-
-
-
     .main{
         margin:0px;
     }
@@ -465,6 +490,24 @@
         width: 250px;
         height: 60px;
         
+    }
+    .footer{
+        margin-top: 20px;
+        padding: 0rem;
+        background-color: #e2e1e0;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    .hr {
+        width: 80%;
+        border: 1px solid  rgba(19, 19, 24, 0.70);;
+        margin: 20px 0;
     }
 
 
